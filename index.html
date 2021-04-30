@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <section class="showcase">
+        <header>
+          <h2 class="logo">Reisesyk.no</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="Images/IMG_1948 (convert-video-online.com).mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>Aldri stop </h2> 
+          <h3>å utforske verden</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+          <a href="#">Les mer</a>
+        </div>
+        <ul class="social">
+          <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Hjem</a></li>
+          <li><a href="#">Inspirasjon</a></li>
+          <li><a href="#">Destinasjoner</a></li>
+          <li><a href="#">Praktisk</a></li>
+          <li><a href="#">Om</a></li>
+        </ul>
+      </div>
+
+
+  <script>
+
+         const menuToggle = document.querySelector('.toggle');
+         const showcase = document.querySelector('.showcase');
+    
+         menuToggle.addEventListener('click', () => {
+         menuToggle.classList.toggle('active');
+         showcase.classList.toggle('active');
+          })
+    
+    </script> 
+
+</body>
+</html>
